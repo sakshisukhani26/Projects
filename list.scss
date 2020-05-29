@@ -1,0 +1,88 @@
+*
+{
+    padding: 0;
+    margin: 0;
+ box-sizing: border-box;
+}
+@media(max-width: 450px){
+
+}
+body
+{
+ background-size: cover;
+ background-position: center;
+font-family: sans-serif;
+}
+body h1
+{
+ float: left;
+ color: white;
+}
+.menu-bar
+{
+background: black;
+text-align: right;
+font-size: 30;
+}
+.menu-bar ul
+{
+display: inline-flex;
+list-style: none;
+color: #fff;
+}
+.menu-bar ul li
+{
+width: 120px;
+margin: 15px;
+padding: 15px;
+}
+.menu-bar ul li a
+{
+text-decoration: none;
+color: #fff;
+transition: 0.6s ease;
+}
+.active, .menu-bar ul li:hover
+{
+ background: #2bab0d;
+ border-radius: 3px;
+ }
+
+    .content-table{
+      border-collapse: collapse;
+      margin: 25px 0px;
+      font-size: 0.9cm;
+      min-width: 400px;
+      color: black;
+      border-radius: 5px 5px 0 0;
+      overflow: hidden;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+    .content-table thead tr{
+      background-color: #009879;
+      color: black;
+      text-align: left;
+      font-weight: bold;
+    }
+    .content-table td{
+    padding: 12px 15px;
+    }
+    .content-table tbody tr
+    {
+     border-bottom: 1px solid #dddddd;
+    }
+    .content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+    color: black;
+    }
+    .content-table tbody tr:nth-of-type(odd){
+    color: white;
+    }
+    .content-table tbody tr:last-of-type{
+    border-bottom: 2px solid #009829;
+    }
+    .content-table tbody tr:active-row
+    {
+     font-weight: bold;
+     color: #009879;
+    }
